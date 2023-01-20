@@ -13,12 +13,14 @@ let questionCounter = 0;
 let availableQuestions = [];
 let questions = [];
 // "https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=multiple"
-fetch("https://opentdb.com/api.php?amount=10&category=11&type=multiple")
+// fetch("https://opentdb.com/api.php?amount=10&category=11&type=multiple")
+fetch("http://localhost:3333/questions")
   .then((res) => {
     return res.json();
   })
   .then((loadedQuestions) => {
-    questions = loadedQuestions.results.map((loadedQuestion) => {
+    console.log(loadedQuestions);
+    questions = loadedQuestions.map((loadedQuestion) => {
       const formattedQuestion = {
         question: loadedQuestion.question,
       };
