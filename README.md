@@ -15,7 +15,7 @@ Deployment link: <a hred="https://quizzes4u.netlify.app/">https://quizzes4u.netl
 ## Todo list
 
 [ ] - Change style 💄  
-[ ] - Convert to PWA 📱  
+[X] - Convert to PWA 📱  
 [ ] - Add own custom api instead of open trivia database 💾  
 [ ] - Add countdown timer ⏱️  
 [ ] - Transfer high score record to the database instead localstorage 🕹️  
