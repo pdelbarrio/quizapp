@@ -20,5 +20,5 @@ Deployment link: <a hred="https://quizzes4u.netlify.app/">https://quizzes4u.netl
 [ ] - Add countdown timer ⏱️  
 [ ] - Transfer high score record to the database instead localstorage 🕹️  
 [ ] - Improve internal navigation 🧭  
-[ ] - Improve the functionality of the quiz by briefly showing the correct answer in case of a wrong answer to a question before moving on to the next question ✅
+[ ] - Improve the functionality of the quiz by briefly showing the correct answer in case of a wrong answer to a question before moving on to the next question ✅  
 [ ] - Add protected link to form to add more questions to the quizz database ➕❓
