@@ -6,11 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ADMIN</title>
-    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="admin.css">
 </head>
 
 <body>
-    <h2>ADMIN - INPUT QUESTIONS TO DATABASE</h2>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <h2 id="title" class="admin">Add question to the quiz</h2>
+            <form id="login-form">
+                <input type="text" name="category" id="category" placeholder="category" />
+                <input type="text" name="question" id="question" placeholder="question" />
+                <input type="text" name="correctanswer" id="correctanswer" placeholder="correct answer" />
+                <input type="text" name="incorrectanswer1" id="incorrectanswer1" placeholder="incorrect answer 1" />
+                <input type="text" name="incorrectanswer2" id="incorrectanswer2" placeholder="incorrect answer 2" />
+                <input type="text" name="incorrectanswer3" id="incorrectanswer3" placeholder="incorrect answer 3" />
+                <input type="button" value="Add question" class="btn" onclick="submitForm()" />
+
+            </form>
+            <a class=" btn" href="/index.html">Go Home</a>
+        </div>
+    </div>
     <script src="admin.js"></script>
 </body>
 

@@ -1,6 +1,6 @@
 submitForm = () => {
-  var username = document.getElementById("username").value;
-  var password = document.getElementById("password").value;
+  let username = document.getElementById("username").value;
+  let password = document.getElementById("password").value;
 
   fetch("https://quiz-api-a8rf.onrender.com/login", {
     method: "POST",
