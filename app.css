@@ -44,11 +44,11 @@ h3 {
   padding-top: 10rem;
 }
 
-/* @media only screen and (max-width: 480px) {
-  h1 {
-    padding-left: 20%;
+@media only screen and (max-width: 480px) {
+  .admin {
+    font-size: 2rem;
   }
-} */
+}
 
 /* UTILITIES */
 .container {
@@ -99,8 +99,27 @@ h3 {
   color: #56a5eb;
   background-color: white;
 }
+.adm-btn {
+  font-size: 1.5rem;
+  padding: 2rem;
+  /* width: 20rem; */
+  text-align: center;
+  border: 0.1rem solid #56a5eb;
+  margin-top: 10rem;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: #56a5eb;
+  background-color: white;
+  border-radius: 50%;
+}
 
 .btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+.adm-btn:hover {
   cursor: pointer;
   box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
   transform: translateY(-0.1rem);
