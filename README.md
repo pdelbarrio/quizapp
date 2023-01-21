@@ -17,7 +17,7 @@ Deployment link: <a hred="https://quizzes4u.netlify.app/">https://quizzes4u.netl
 [X] - Add own custom api instead of open trivia database 💾  
 [ ] - Change style 💄  
 [X] - Convert to PWA 📱  
-[ ] - Add protected link to form to add more questions to the quizz database ➕❓  
+[X] - Add protected link to form to add more questions to the quizz database ➕❓  
 [ ] - Add countdown timer ⏱️  
 [ ] - Transfer high score record to the database instead localstorage 🕹️  
 [ ] - Improve internal navigation 🧭  

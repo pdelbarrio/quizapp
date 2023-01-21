@@ -12,15 +12,7 @@ submitForm = () => {
   let incorrectanswer2 = document.getElementById("incorrectanswer2").value;
   let incorrectanswer3 = document.getElementById("incorrectanswer3").value;
 
-  console.log(
-    category,
-    question,
-    correctanswer,
-    incorrectanswer1,
-    incorrectanswer2,
-    incorrectanswer3
-  );
-  fetch("http://localhost:3333/questions", {
+  fetch("https://quiz-api-a8rf.onrender.com/questions", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
