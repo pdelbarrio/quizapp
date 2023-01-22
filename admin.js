@@ -3,6 +3,9 @@ const user = JSON.parse(sessionStorage.getItem("user"));
 if (!user) {
   window.location.href = "/login.html"; // redirect to login page
 }
+resetForm = () => {
+  document.getElementById("add-question").reset();
+};
 
 submitForm = () => {
   let category = document.getElementById("category").value;
@@ -13,6 +16,7 @@ submitForm = () => {
   let incorrectanswer3 = document.getElementById("incorrectanswer3").value;
 
   fetch("https://quiz-api-a8rf.onrender.com/questions", {
+    // fetch("http://localhost:3333/questions", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -29,6 +33,7 @@ submitForm = () => {
       //   console.log(data);
       if (data) {
         alert("Question added");
+        resetForm();
       } else {
         alert("Problem adding question");
       }
