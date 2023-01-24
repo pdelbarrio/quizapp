@@ -64,14 +64,17 @@
   color: #56a5eb;
   margin-bottom: 5rem;
   font-weight: bold;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 #loadingContainer {
   color: #56a5eb;
   margin-bottom: 5rem;
   font-weight: bold;
+  /* display: flex; */
+  /* justify-content: center;
+  align-self: center; */
 }
 
 #loader {
@@ -81,9 +84,10 @@
   width: 12rem;
   height: 12rem;
   animation: spin 2s linear infinite;
-  /* display: flex; */
+  /* display: flex;
   justify-content: center;
   align-items: center;
+   */
 }
 
 @keyframes spin {
