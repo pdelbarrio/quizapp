@@ -4,6 +4,8 @@ const progressText = document.getElementById("progressText");
 const scoreText = document.getElementById("score");
 const progressBarFull = document.getElementById("progressBarFull");
 const loader = document.getElementById("loader");
+const loaderText = document.getElementById("loaderText");
+const loadingContainer = document.getElementById("loadingContainer");
 const game = document.getElementById("game");
 
 let currentQuestion = {};
@@ -57,6 +59,8 @@ startGame = () => {
   getNewQuestion();
   game.classList.remove("hidden");
   loader.classList.add("hidden");
+  loaderText.classList.add("hidden");
+  loadingContainer.classList.add("hidden");
 };
 
 getNewQuestion = () => {

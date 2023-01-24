@@ -60,6 +60,14 @@
 }
 
 /*LOADER*/
+#loaderText {
+  color: #56a5eb;
+  margin-bottom: 5rem;
+  font-weight: bold;
+}
+#loadingContainer {
+}
+
 #loader {
   border: 1.6rem solid white;
   border-radius: 50%;
