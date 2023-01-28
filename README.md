@@ -10,7 +10,7 @@
 
 # QUIZ APP IN PROGRESS
 
-Deployment link: <a hred="https://quizzes4u.netlify.app/">https://quizzes4u.netlify.app/</a>
+Deployment link: <a hred="https://quizr.netlify.app/">https://quizr.netlify.app/</a>
 
 ## Todo list
 

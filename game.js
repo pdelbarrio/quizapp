@@ -50,7 +50,7 @@ fetch("https://quiz-api-a8rf.onrender.com/questions")
 
 //CONSTANTS
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 6;
+const MAX_QUESTIONS = 7;
 
 startGame = () => {
   questionCounter = 0;
