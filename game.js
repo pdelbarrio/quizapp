@@ -14,9 +14,11 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 let questions = [];
+const urlprod = "https://quiz-api-a8rf.onrender.com/questions";
+const urldev = "http://localhost:3333/questions";
 // "https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=multiple"
 // fetch("https://opentdb.com/api.php?amount=10&category=11&type=multiple")
-fetch("https://quiz-api-a8rf.onrender.com/questions")
+fetch(urlprod)
   .then((res) => {
     return res.json();
   })
