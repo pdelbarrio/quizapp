@@ -48,7 +48,9 @@ h3 {
 .done {
   padding-top: 10rem;
   padding-bottom: 5rem;
+  color: white;
 }
+
 .notice {
   width: 50%;
   justify-content: center;
