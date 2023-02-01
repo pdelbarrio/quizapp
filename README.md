@@ -10,7 +10,9 @@
 
 # QUIZ APP IN PROGRESS
 
-Deployment link: <a hred="https://quizr.netlify.app/">https://quizr.netlify.app/</a>
+Deployment link: <a href="https://quizr.netlify.app/">https://quizr.netlify.app/</a>
+
+Backend repo: <a href="https://github.com/pdelbarrio/quiz-node-api">https://github.com/pdelbarrio/quiz-node-api</a>
 
 ## Todo list
 
