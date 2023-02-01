@@ -50,6 +50,14 @@ h3 {
   padding-bottom: 5rem;
   color: white;
 }
+.done-link {
+  color: white;
+  text-decoration: none;
+}
+.done-link:hover {
+  color: white;
+  text-decoration: underline;
+}
 
 .notice {
   width: 50%;
